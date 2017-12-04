@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE vxml PUBLIC "-//Nuance/DTD VoiceXML 2.0//EN" "http://voicexml.nuance.com/dtd/nuancevoicexml-2-0.dtd">
+
+<vxml version="2.0" >
+    <form id="ThankYou">
+    <field name="Thank">
+ 
+
+   <grammar version="1.0" mode="voice" root="top">
+    
+  
+        <one-of>
+            <item>thanks</item>
+            <item>thank you</item>
+            <item>got it</item>
+             <item>ok</item>
+        </one-of>
+
+      </grammar>
+
+      <filled>
+      <prompt>Thanks for using our sevice. Have a nice day !</prompt>
+      </filled>
+      </field>
+      
+      </form>
+      </vxml>
+
+         
+         
+         
+         
+         
+         
+         
+         
+        

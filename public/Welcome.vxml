@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE vxml PUBLIC "-//Nuance/DTD VoiceXML 2.0//EN" "http://voicexml.nuance.com/dtd/nuancevoicexml-2-0.dtd">
+
+<vxml version="2.0" >
+    <form id="Welcome">
+    <field name="Wel">
+    <prompt>Welcome to weather bot ! </prompt>
+
+   <grammar version="1.0" mode="voice" root="top">
+    
+    
+        <one-of>
+            <item>Hi</item>
+            <item>Hello</item>
+            <item>tell me weather forecast</item>
+             <item>weather forecast</item>
+              <item>what's the weather</item>
+        </one-of>
+     
+      </grammar>
+
+      <filled>
+      <prompt>Tell me the city name you are staying.</prompt>
+        <goto next="GetTemp.vxml">
+      </filled>
+      </field>
+     
+      </form>
+      </vxml>
+
+         
+         
+         
+         
+         
+         
+         
+         
+        
